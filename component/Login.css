@@ -1,0 +1,58 @@
+
+.Login {
+    width: 400px !important;
+    margin: 0 auto;
+    padding: 20px;
+    background-image: url('https://cdn.vectorstock.com/i/preview-1x/67/59/3d-cartoon-style-bunch-of-keys-icon-on-white-vector-46696759.webp');
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: absolute;
+    left: 35%;
+    top: 28%;
+  }
+  
+  /* Form elements */
+  .Login h2 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .Login label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 8px;
+  }
+  
+  /* Adjust input width */
+  .Login input {
+    width: 80%; /* Set to 80% to make them narrower */
+    padding: 10px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+
+  
+  /* Adjust button styles */
+  .Login button {
+    width: 100%;
+    padding: 12px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+  
+  .Login button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Responsive adjustments */
+  @media screen and (max-width: 600px) {
+    .Login {
+      max-width: 100%;
+    }
+  }

@@ -1,0 +1,34 @@
+
+/* styles.css */
+ 
+/* Style for the entire table */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+ 
+/* Style for table header */
+th {
+  background-color: #f2f2f2;
+  border: 1px solid #dddddd;
+  padding: 8px;
+  text-align: left;
+}
+ 
+/* Style for table data cells */
+td {
+  border: 1px solid #dddddd;
+  padding: 8px;
+}
+ 
+/* Style for odd rows */
+tr:nth-child(odd) {
+  background-color: #f9f9f9;
+}
+ 
+/* Style for table heading */
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
